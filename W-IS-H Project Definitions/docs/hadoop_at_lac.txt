@@ -1,0 +1,13 @@
+Hadoop @ LAC
+----------------------------
+
+#machines: 
+192.168.10.142 hadoopmaster
+192.168.10.132 hadoopslave1
+
+#user at both machines:
+u hadoop (group is hadoop)
+p hadoop
+
+ 
+

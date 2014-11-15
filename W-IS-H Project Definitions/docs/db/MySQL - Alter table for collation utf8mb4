@@ -1,0 +1,6 @@
+#MySQL Database
+
+ALTER TABLE contents
+  DEFAULT CHARACTER SET utf8mb4,
+  MODIFY content VARCHAR(500)
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL;

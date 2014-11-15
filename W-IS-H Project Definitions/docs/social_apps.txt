@@ -1,0 +1,41 @@
+#1
+Social: Foursquare
+Name: W-IS-H Location Collector
+Owner W-IS-H Project
+Client id: BGI0GM3PYSRZYVBS2HPSXSUOSJUWG5D5KLVRPPJPW0CKOE42
+Client secret: M5JK1V3XK2UD5OMSCFISPUSRILKBNHBTHJ0Z3LSAS1H2N5YH
+Used for: applicação registrada para consultar API de venues do F4 pelo programa coletor que irá gravar essas localidades em um banco MySQL.
+
+#2
+Social: Twitter
+Name: W-IS-H Collector 1
+Consumer key: jMC4qTb5gr9Nll7gKScyg
+Consumer secret: U8rVOTtAOzCxkeYOzFR9sjQ9z4TRrD5fPcyOkjQdk
+Access token: 1316692370-3Ai7V4n6Y0i15fBg6WAflOnj9SuKQhaKbWWQWqp
+Access token secret: VWuDhnAW6NBERTgsZdoZUKT8Zbt79xNQGE3aXmuMo
+
+#3
+Social: Twitter
+Name: W-IS-H Collector 2
+Consumer key: fobSKNNLQP3WAxJifOPBgQ
+Consumer secret: H7DwwXcXpDca7BaVr9jaqPsLcvWQkj4xkWsItsLxIys
+Access token: 1316735239-pLEXqLC1vOc9MLcosPPUpywtwpAE0JqD6MJzCRE
+Access token secret: h2t6Aq2Sl6obnZ7ts8KTFHjqgTVFrf7S8oExtz2AM
+
+#4
+Social: Twitter
+Name: W-IS-H Collector 3
+Consumer key: TUpxo228YKehLckkjca8eQ
+Consumer secret: Fbii7LL0Gyr6uP0PGOMuM8Uv5JAA9jQc6KIjmXpT8rY
+Access token: 1316747539-VSM3tlEOFOwrXYIXEByn4hxRpy7IvMcmBDM3U1L
+Access token secret: W0TDWqf2towyLwDMEeMQcBV0e5XvzDgqVbVRnu9gNk
+
+#5
+Social: Twitter
+Name: W-IS-H Notifier
+Consumer key: QoPizNlv9xNdCUQGwODlA
+Consumer secret: Ih2l75bxC29M2NHj7Ns6j6rAiFAMwkGcl3H731504A
+Access token: 1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7
+Access token secret: naPiyoNFSQvIW9xZFye4Hxn51gouita29ziwYJus2Y
+
+

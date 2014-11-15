@@ -1,0 +1,437 @@
+CREATE DATABASE  IF NOT EXISTS `wishdb` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `wishdb`;
+-- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+--
+-- Host: 127.0.0.1    Database: wishdb
+-- ------------------------------------------------------
+-- Server version	5.5.28
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `analysis_feedback_content`
+--
+
+DROP TABLE IF EXISTS `analysis_feedback_content`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_feedback_content` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `request_feedback_id` varchar(50) NOT NULL,
+  `idPublicationEventContent` int(11) NOT NULL,
+  `vote` bit(1) NOT NULL DEFAULT b'0',
+  `date` datetime NOT NULL,
+  `observations` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `analysis_feedback_contentcol_UNIQUE` (`request_feedback_id`),
+  KEY `FK_FEEDBACK_CONTENT_PUBLICATION_EVENT_idx` (`idPublicationEventContent`),
+  CONSTRAINT `FK_FEEDBACK_CONTENT_PUBLICATION_EVENT` FOREIGN KEY (`idPublicationEventContent`) REFERENCES `analysis_publication_event_content` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecuser`
+--
+
+DROP TABLE IF EXISTS `tecsecuser`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecuser` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `type` int(10) DEFAULT NULL,
+  `addDate` datetime NOT NULL,
+  `lastUpdate` datetime NOT NULL,
+  `isActive` tinyint(4) NOT NULL,
+  `email` varchar(60) DEFAULT NULL,
+  `login` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `idContent` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `IX_TecSecUser` (`login`),
+  KEY `FK_TecSecUser_TecGenBinaryContent` (`idContent`),
+  CONSTRAINT `FK_TecSecUser_TecGenBinaryContent` FOREIGN KEY (`idContent`) REFERENCES `tecgenbinarycontent` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_publication`
+--
+
+DROP TABLE IF EXISTS `analysis_publication`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_publication` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` datetime NOT NULL,
+  `description` varchar(500) DEFAULT NULL,
+  `isPublic` bit(1) NOT NULL DEFAULT b'0',
+  `receiveVote` bit(1) NOT NULL DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecaction`
+--
+
+DROP TABLE IF EXISTS `tecsecaction`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecaction` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `idControl` int(10) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `keyName` varchar(255) NOT NULL,
+  `addDate` datetime NOT NULL,
+  `lastUpdate` datetime NOT NULL,
+  `isActive` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_TecSecAction` (`keyName`),
+  KEY `FK_TecSecAction_&_TecSecControl` (`idControl`),
+  CONSTRAINT `FK_TecSecAction_&_TecSecControl` FOREIGN KEY (`idControl`) REFERENCES `tecseccontrol` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_publication_event_content`
+--
+
+DROP TABLE IF EXISTS `analysis_publication_event_content`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_publication_event_content` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idPublicationEvent` int(11) NOT NULL,
+  `idContent` int(11) NOT NULL,
+  `classificationJson` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_CONTENT_CONTENT_idx` (`idContent`),
+  KEY `FK_CONTENT_PUBLICATION_EVENT_idx` (`idPublicationEvent`),
+  CONSTRAINT `FK_CONTENT_CONTENT` FOREIGN KEY (`idContent`) REFERENCES `contents` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_CONTENT_PUBLICATION_EVENT` FOREIGN KEY (`idPublicationEvent`) REFERENCES `analysis_publication_event` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecactionuser`
+--
+
+DROP TABLE IF EXISTS `tecsecactionuser`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecactionuser` (
+  `idAction` int(10) NOT NULL,
+  `idUser` int(10) NOT NULL,
+  PRIMARY KEY (`idAction`,`idUser`),
+  KEY `FK_TecSecActionUser_&_TecSecUser` (`idUser`),
+  CONSTRAINT `FK_TecSecActionUser_&_TecSecAction` FOREIGN KEY (`idAction`) REFERENCES `tecsecaction` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_TecSecActionUser_&_TecSecUser` FOREIGN KEY (`idUser`) REFERENCES `tecsecuser` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecseclog`
+--
+
+DROP TABLE IF EXISTS `tecseclog`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecseclog` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `idUser` int(10) NOT NULL,
+  `idAction` int(10) NOT NULL,
+  `dateLog` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_TecSecLog_&_TecSecAction` (`idAction`),
+  KEY `FK_TecSecLog_&_TecSecUser` (`idUser`),
+  CONSTRAINT `FK_TecSecLog_&_TecSecAction` FOREIGN KEY (`idAction`) REFERENCES `tecsecaction` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_TecSecLog_&_TecSecUser` FOREIGN KEY (`idUser`) REFERENCES `tecsecuser` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecactiongroup`
+--
+
+DROP TABLE IF EXISTS `tecsecactiongroup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecactiongroup` (
+  `idAction` int(10) NOT NULL,
+  `idGroup` int(10) NOT NULL,
+  PRIMARY KEY (`idAction`,`idGroup`),
+  KEY `FK_TecActionGroup_&_TecGroup` (`idGroup`),
+  CONSTRAINT `FK_TecActionGroup_&_TecGroup` FOREIGN KEY (`idGroup`) REFERENCES `tecsecgroup` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_TecSecActionGroup_&_TecSecAction` FOREIGN KEY (`idAction`) REFERENCES `tecsecaction` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_publication_event_evaluation`
+--
+
+DROP TABLE IF EXISTS `analysis_publication_event_evaluation`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_publication_event_evaluation` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idPublicationEvent` int(11) NOT NULL,
+  `vote` bit(1) NOT NULL DEFAULT b'0',
+  `date` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_EVALUATION_PUBLICATION_EVENT_idx` (`idPublicationEvent`),
+  CONSTRAINT `FK_EVALUATION_PUBLICATION_EVENT` FOREIGN KEY (`idPublicationEvent`) REFERENCES `analysis_publication_event` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecgroupuser`
+--
+
+DROP TABLE IF EXISTS `tecsecgroupuser`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecgroupuser` (
+  `idGroup` int(10) NOT NULL,
+  `idUser` int(10) NOT NULL,
+  PRIMARY KEY (`idGroup`,`idUser`),
+  KEY `FK_TecSecGroupUser_&_TecSecUser` (`idUser`),
+  CONSTRAINT `FK_TecSecGroupUser_&_TecSecGroup` FOREIGN KEY (`idGroup`) REFERENCES `tecsecgroup` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_TecSecGroupUser_&_TecSecUser` FOREIGN KEY (`idUser`) REFERENCES `tecsecuser` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_publication_event_content_evaluation`
+--
+
+DROP TABLE IF EXISTS `analysis_publication_event_content_evaluation`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_publication_event_content_evaluation` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idPublicationEventContent` int(11) NOT NULL,
+  `date` datetime NOT NULL,
+  `vote` bit(1) NOT NULL DEFAULT b'0',
+  PRIMARY KEY (`id`),
+  KEY `FK_EVALUATION_PUBLICATION_EVENT_CONTENT_idx` (`idPublicationEventContent`),
+  CONSTRAINT `FK_EVALUATION_PUBLICATION_EVENT_CONTENT` FOREIGN KEY (`idPublicationEventContent`) REFERENCES `analysis_publication_event_content` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecmodule`
+--
+
+DROP TABLE IF EXISTS `tecsecmodule`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecmodule` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `keyName` varchar(255) NOT NULL,
+  `addDate` datetime NOT NULL,
+  `lastUpdate` datetime NOT NULL,
+  `version` char(5) NOT NULL DEFAULT '0.0.1',
+  `isActive` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_TecSecModule` (`keyName`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `scheduled_analysis`
+--
+
+DROP TABLE IF EXISTS `scheduled_analysis`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scheduled_analysis` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idContentsHDFSImport` int(11) NOT NULL,
+  `numberReduceTasks` int(11) NOT NULL,
+  `numberMapTasks` int(11) NOT NULL,
+  `initialOutputPath` varchar(500) NOT NULL,
+  `insertDate` datetime NOT NULL,
+  `scheduledDate` datetime NOT NULL,
+  `idFile` int(11) NOT NULL,
+  `execBeginDate` datetime DEFAULT NULL,
+  `execEndDate` datetime DEFAULT NULL,
+  `executionStatus` int(11) DEFAULT NULL,
+  `executionMessage` varchar(500) DEFAULT NULL,
+  `executionLog` longtext,
+  `finalOutputPath` varchar(500) DEFAULT NULL,
+  `aggregatorJobClass` varchar(500) NOT NULL,
+  `maxDistance` float NOT NULL,
+  `temporalWeight` float NOT NULL,
+  `spatialWeight` float NOT NULL,
+  `semanticWeight` float NOT NULL,
+  `idPublication` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_CONTENTS_HDFS_IMPORT_idx` (`idContentsHDFSImport`),
+  KEY `FK_ANALYSIS_EXECUTION_FILE_idx` (`idFile`),
+  KEY `FK_SCHEDULED_PUBLICATION_idx` (`idPublication`),
+  CONSTRAINT `FK_SCHEDULED_ANALYSIS_EXECUTION_FILE` FOREIGN KEY (`idFile`) REFERENCES `analysis_execution_file` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_SCHEDULED_CONTENTS_HDFS_IMPORT` FOREIGN KEY (`idContentsHDFSImport`) REFERENCES `contents_hdfs_import` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `FK_SCHEDULED_PUBLICATION` FOREIGN KEY (`idPublication`) REFERENCES `analysis_publication` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecsecgroup`
+--
+
+DROP TABLE IF EXISTS `tecsecgroup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecsecgroup` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `idMaster` int(10) DEFAULT NULL,
+  `addDate` datetime NOT NULL,
+  `lastUpdate` datetime NOT NULL,
+  `isActive` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_TecSecGroup_&_TecSecGroup` (`idMaster`),
+  CONSTRAINT `FK_TecSecGroup_&_TecSecGroup` FOREIGN KEY (`idMaster`) REFERENCES `tecsecgroup` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `scheduled_analysis_jobs`
+--
+
+DROP TABLE IF EXISTS `scheduled_analysis_jobs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scheduled_analysis_jobs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idScheduledAnalysis` int(11) NOT NULL,
+  `ordination` int(11) NOT NULL,
+  `jobClass` varchar(500) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_SCHEDULED_ANALYSIS_idx` (`idScheduledAnalysis`),
+  CONSTRAINT `FK_JOBS_SCHEDULED_ANALYSIS` FOREIGN KEY (`idScheduledAnalysis`) REFERENCES `scheduled_analysis` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_feedback`
+--
+
+DROP TABLE IF EXISTS `analysis_feedback`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_feedback` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idPublication` int(11) NOT NULL,
+  `date` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_FEEDBACK_PUBLICATION_idx` (`idPublication`),
+  CONSTRAINT `FK_FEEDBACK_PUBLICATION` FOREIGN KEY (`idPublication`) REFERENCES `analysis_publication` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecseccontrol`
+--
+
+DROP TABLE IF EXISTS `tecseccontrol`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecseccontrol` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `idModule` int(10) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `keyName` varchar(255) NOT NULL,
+  `addDate` datetime NOT NULL,
+  `lastUpdate` datetime NOT NULL,
+  `isActive` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_TecSecControl` (`keyName`),
+  KEY `FK_TecSecControl_&_TecSecModule` (`idModule`),
+  CONSTRAINT `FK_TecSecControl_&_TecSecModule` FOREIGN KEY (`idModule`) REFERENCES `tecsecmodule` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `tecseclogcontent`
+--
+
+DROP TABLE IF EXISTS `tecseclogcontent`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tecseclogcontent` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `idLog` int(10) NOT NULL,
+  `field` varchar(30) NOT NULL,
+  `value` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_TecSecLogContent_&_TecSecLog` (`idLog`),
+  CONSTRAINT `FK_TecSecLogContent_&_TecSecLog` FOREIGN KEY (`idLog`) REFERENCES `tecseclog` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `scheduled_analysis_properties`
+--
+
+DROP TABLE IF EXISTS `scheduled_analysis_properties`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scheduled_analysis_properties` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idScheduledAnalysis` int(11) NOT NULL,
+  `propertyKey` varchar(100) NOT NULL,
+  `propertyValue` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_SCHEDULED_ANALYSIS_idx` (`idScheduledAnalysis`),
+  CONSTRAINT `FK_PROPERTIES_SCHEDULED_ANALYSIS` FOREIGN KEY (`idScheduledAnalysis`) REFERENCES `scheduled_analysis` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `analysis_publication_event`
+--
+
+DROP TABLE IF EXISTS `analysis_publication_event`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `analysis_publication_event` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `idPublication` int(11) NOT NULL,
+  `semantics` varchar(200) NOT NULL,
+  `latitude` double NOT NULL,
+  `longitude` double NOT NULL,
+  `timestamp` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_EVENT_ANALYSIS_PUBLICATION_idx` (`idPublication`),
+  CONSTRAINT `FK_EVENT_ANALYSIS_PUBLICATION` FOREIGN KEY (`idPublication`) REFERENCES `analysis_publication` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2013-07-06 23:19:39

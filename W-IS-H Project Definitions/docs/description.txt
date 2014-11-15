@@ -1,0 +1,11 @@
+Brief description:
+
+- The W-IS-H project aims at discovering what is happening in the world through the analysis of social data. Our goal is to detect local events that are happening at the moment in a city and show this information to web users.
+
+Twitter user description:
+
+- The W-IS-H project aims at discovering what is happening in the world through the analysis of social data. 
+
+Twitter app description:
+
+- This app aims to access the Streaming API to receive tweets through the GET statuses/sample endpoint.

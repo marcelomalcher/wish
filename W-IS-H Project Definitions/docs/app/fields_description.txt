@@ -1,0 +1,12 @@
+Scheduled analysis execution:
+
+- executionStatus : 0 - for open, (negative) - for error, 1 - for success
+- executionMessage: 
+- executionLog    : 
+- finalOutputPath : 
+- idPublication   : 
+
+Contents import:
+
+- importStatus : 0 - for open, (negative) - for error, 1 - for success
+- importMessage:

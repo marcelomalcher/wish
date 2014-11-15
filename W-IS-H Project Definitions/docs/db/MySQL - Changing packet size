@@ -1,0 +1,2 @@
+#Defining size
+SET GLOBAL max_allowed_packet=3500000000;

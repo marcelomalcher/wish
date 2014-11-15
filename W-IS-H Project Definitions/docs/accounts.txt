@@ -1,0 +1,53 @@
+W-IS-H Accounts
+-------------------------------------------
+
+1 - principal
+3 - coletores
+
+#Principal
+- Será usada para criar uma conta no Twitter e registrar uma aplicação para envio de tweets aos criadores de posts.
+- Também será usado para criar uma conta no Foursquare e registrar a aplicação coletora de localidades.
+
+- GMail
+--- user: wish.lac.pucrio@gmail.com ou wishlacpucrio@gmail.com
+--- pass: 102030wish
+
+- Twitter
+--- user: wishlacpucrio@gmail.com
+--- pass: 102030wish
+--- link: https://twitter.com/wishlacpucrio
+
+- Foursquare
+--- user: wishlacpucrio@gmail.com
+--- pass: 102030wish
+
+#Coletores
+- Serão utilizados para criar contas no Twitter e coletar tweets de três localidades: NY, Rio de Janeiro e São Paulo.
+
+- Coletor 1
+--- GMail
+------ user: wishlacpucrio.collector.1@gmail.com
+------ pass: 102030wish
+--- Twitter
+------ user: wishcollector_1 ou wishlacpucrio.collector.1@gmail.com
+------ pass: 102030wish
+------ link: https://twitter.com/wishcollector_1
+
+- Coletor 2
+--- GMail
+------ user: wishlacpucrio.collector.2@gmail.com
+------ pass: 102030wish
+--- Twitter
+------ user: wishcollector_2 ou wishlacpucrio.collector.2@gmail.com
+------ pass: 102030wish
+------ link: https://twitter.com/wishcollector_2
+
+- Coletor 3
+--- GMail
+------ user: wishlacpucrio.collector.3@gmail.com
+------ pass: 102030wish
+------ user: wishcollector_3 ou wishlacpucrio.collector.3@gmail.com
+--- Twitter
+------ pass: 102030wish
+------ link: https://twitter.com/wishcollector_3
+

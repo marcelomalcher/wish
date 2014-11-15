@@ -1,0 +1,9 @@
+Twitter
+---------------------------------
+
+- Criar nova aplicação: 
+-> https://dev.twitter.com/apps/new
+
+- Descrição das aplicações coletoras: 
+-> This app aims to access the Streaming API to receive tweets through the GET statuses/sample endpoint.
+
