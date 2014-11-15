@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"> </script><head><meta name="viewport" content="initial-scale=1.0, user-scalable=no" /></head><style type="text/css">  html { height: 100% }  body { height: 100%; margin: 0px; padding: 0px }  #map_canvas { height: 100% }</style><style>
+ .group_class  {
+    display: inline-block;
+}
+
+ .info_class  {
+    width:500px;
+    border:1px solid black;
+    
+}
+
+.info_box_class
+{
+    border:1px solid black;
+    margin: 10px;
+}
+
+.content_info_box_class
+{
+    border:1px solid black;
+    margin: 10px;
+    background-color:white;
+}
+
+.paint
+{
+    background-color:yellow;
+}
+</style><textarea rows="10" style="margin:50px;width:80%;height:200px" id="newResult"> </textarea><input type="button" value="read" onclick="readNew($('#newResult').val())" /><div id="fullView" style="margin:50px"></div><script type="text/javascript">function buildMap(input, index) {try{	var myJSONObject = eval( "("+input+")");	var contentsIds = new Array();	var contentsLatlng = new Array();	    var contentsTxt = new Array();    var contentsInfoBox = new Array();    group = "g_"+index;    $("#fullView").append("<div id='"+group+"'></div>");        $("#"+group).append('<div id="'+group+'_info" style="clear:both;margin: 10px;" class="info_class"></div>');    $("#"+group).append('<div id="'+group+'_map_canvas" style="clear:both;width:500px; height:500px; float:left;margin: 10px;"></div>');    $("#"+group).append('<div id="'+group+'_item_info" class="info_box_class" style=" float:left;"></div>');    $("#"+group).append('<div id="'+group+'_viewCode" class=""></div>');	$("#"+group+"_viewCode").innerHTML = input;	    var id = myJSONObject.id +"";    var semantics = myJSONObject.semantics +"";    var latitude = myJSONObject.spatial.latitude +"";    var longitude = myJSONObject.spatial.longitude +"";    var temporal = myJSONObject.temporal +"";	var date = new Date( myJSONObject.temporal );           // build info box    info = id + "<BR><b>" + semantics + "</b> (" +latitude+ "," +longitude+ ") " + " t: "+temporal + " (" + date.toUTCString() + ")";        //add info box    $("#"+group+"_info").html(info);        // get group point to be map center    group_Latlng = new google.maps.LatLng( latitude, longitude );    	    //create map    var myOptions = {zoom: 12,center: group_Latlng,mapTypeId: google.maps.MapTypeId.ROADMAP}    var map = new google.maps.Map(document.getElementById(group+"_map_canvas"), myOptions);        //add group center	group_content = semantics;        var marker = new google.maps.Marker({position:  group_Latlng, map: map, title: group_content });        // Set icon to gorup center    //marker.setIcon("http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_bigger.jpg", "Size?:");    marker.setIcon("http://mapicons.nicolasmollet.com/wp-content/uploads/mapicons/shape-default/color-1b65d4/shapecolor-color/shadow-1/border-black/symbolstyle-contrast/symbolshadowstyle-no/gradient-no/database.png");        //for each single content Create Array with all contents	 for ( var i = 0; i < myJSONObject.contents.length; i++ )	 {		var lat = myJSONObject.contents[i].location.latitude;  		var lon = myJSONObject.contents[i].location.longitude;  		var content = myJSONObject.contents[i].location.content;  		contentsLatlng[i] = new google.maps.LatLng( lat, lon );		contentsTxt[i] = myJSONObject.contents[i].content;				id = myJSONObject.contents[i].id+"";		contentsIds[i] = id;			item_info = "<div class='content_info_box_class' id='"+id+"' >";		item_info += "<b>id:</b> " + id + "<BR>";		item_info += "<b>content:</b> " + myJSONObject.contents[i].content + "<BR>";		item_info += "<b>location:</b> " + lat +","+ lon + "<BR>";		var contentDate = new Date(myJSONObject.contents[i].timestamp)		item_info += "<b>time:</b> " + myJSONObject.contents[i].timestamp + " (" + contentDate.toUTCString() + ")<BR>";		item_info += "</div>";				contentsInfoBox[i] = item_info;			 }	     var map_markers = new Array();	 // for each content in the array add to the map and create an "item info box"	 for ( var i = 0; i < contentsLatlng.length; i++ )	 {	    var marker = new google.maps.Marker({position:  contentsLatlng[ i ], map: map, title: contentsTxt[i] });        marker.setIcon("http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png");        $("#"+group+"_item_info").append(contentsInfoBox[i]);        var id_str = contentsIds[i]+"";            marker.id = id_str;        map_markers[i] = marker;        google.maps.event.addListener(marker, "click", function() { paint(this, map_markers); });        	 }	 	 	}	catch(e)	{		alert("Error" + e);	}}function paint(marker, map_markers){        try{        for(var i = 0; i < map_markers.length; i++ )        {                        $("#"+map_markers[i].id).removeClass("paint");            map_markers[i].setIcon("http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png");        }                marker.setIcon("http://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png");        
+        $("#"+marker.id).addClass("paint");
+    }
+    catch(e)
+    {
+        alert(e);
+    }
+}var results = new Array();function initialize(index){        XXX_RESULTS_XXX	for(i=0;i<results.length;i++)		buildMap(results[i], i);}function readNew(str){    var index = results.length+1;    results[index] = str;    buildMap(results[index], index);	}	initialize(0);</script><script>//alert ($('#fullView').text());</script></html>

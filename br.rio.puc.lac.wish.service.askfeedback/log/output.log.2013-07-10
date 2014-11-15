@@ -1,0 +1,820 @@
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @xo_princessEM, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @deepikaaa10, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=1873d453-ea3e-4e0e-b48a-b0f71107a0cc
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @eembrennan, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=da32293d-dc27-4bfb-bdae-c29a81c9b7f3
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @xo_princessEM, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @deepikaaa10, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=1873d453-ea3e-4e0e-b48a-b0f71107a0cc
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @eembrennan, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=da32293d-dc27-4bfb-bdae-c29a81c9b7f3
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @xo_princessEM, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @deepikaaa10, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=1873d453-ea3e-4e0e-b48a-b0f71107a0cc
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @eembrennan, we used one of your posts for event detection. Could you confirm if this event happened?   http://events.lac-rio.com/feedback.jsp?rid=da32293d-dc27-4bfb-bdae-c29a81c9b7f3
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1617159148%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472046%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: eXRINxmO+WJpOr/v+ktFx3ohIao=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *************************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 2fae630d83c71822b44834f5dfc60da6b29c2634
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "70fc4041f6de978c611d1294be3745ce"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:01:02 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:01:02 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 327554d54fda0329
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.15736
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347206192856083; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:01:02 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWYzYzhjMDNjZTY1OGYzNWYyNjZjNWNkOGEyNmUyMzFmOgxj%250Ac3JmX2lkIiU3YWNmYmZjNDdiNWI5NDk4ZGM3YWYwOTYxZGM5MjU2ZToPY3Jl%250AYXRlZF9hdGwrCIp6UMk%252FAQ%253D%253D--e8f2740db03fb1cdf722b0b70cfd00a642758cf5; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:01:02 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 1025
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"text":"@marcelomalcher, we used one of your posts for event detection. Could you confirm if this event happened?","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":"marcelomalcher","truncated":false,"entities":{"urls":[],"hashtags":[],"user_mentions":[{"id":80631833,"name":"Marcelo Malcher","indices":[0,15],"screen_name":"marcelomalcher","id_str":"80631833"}]},"in_reply_to_status_id_str":null,"id":354993674440019968,"in_reply_to_user_id_str":"80631833","source":"<a href=\"http://events.lac-rio.com\" rel=\"nofollow\">W-IS-H Notifier<\/a>","favorited":false,"in_reply_to_status_id":null,"created_at":"Wed Jul 10 16:01:02 +0000 2013","in_reply_to_user_id":80631833,"retweet_count":0,"id_str":"354993674440019968","place":null,"user":{"location":"Rio de Janeiro, Brasil","default_profile":true,"statuses_count":1,"profile_background_tile":false,"lang":"pt","profile_link_color":"0084B4","id":1311607782,"following":false,"favourites_count":0,"protected":false,"profile_text_color":"333333","contributors_enabled":false,"verified":false,"description":"The W-IS-H project aims at discovering what is happening in the world through the analysis of social data.","profile_sidebar_border_color":"C0DEED","name":"W-IS-H Project","profile_background_color":"C0DEED","created_at":"Thu Mar 28 20:15:56 +0000 2013","default_profile_image":false,"followers_count":2,"profile_image_url_https":"https://si0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]},"url":{"urls":[{"expanded_url":"http://events.lac-rio.com","indices":[0,22],"display_url":"events.lac-rio.com","url":"http://t.co/GvmE09wtsh"}]}},"follow_request_sent":false,"url":"http://t.co/GvmE09wtsh","utc_offset":-10800,"time_zone":"Brasilia","notifications":false,"friends_count":7,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"wishlacpucrio","id_str":"1311607782","profile_image_url":"http://a0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","is_translator":false,"listed_count":0},"coordinates":null}
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @marcelomalcher, we used one of your posts for event detection. Could you confirm if this event happened?
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D3281936560%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472398%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: 5FPwEEbCMH+94qq3G8PqNhxKrQo=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 26da84969b1cd16cf11ba5415ac186fe5e260268
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "7825c6a52e67e80f9fef0abd76f53bfc"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:06:54 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:06:54 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: ded96566cfe8e577
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.22407
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347241401005082; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:06:54 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTNkMzc1NDFkZDg5OWE1MjZkY2Y2ZjFhM2VkNDAwODZhOgxj%250Ac3JmX2lkIiUyMWE0OWU2ZmFkOGNmMGU4ODBhMDI4ODIzNTJmZDMxMzoPY3Jl%250AYXRlZF9hdGwrCMXZVck%252FAQ%253D%253D--b56ed05c84516c4c4b9673c6c7d66adf096c4606; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:06:54 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 1106
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"text":"@marcelomalcher, we used one of your posts for event detection. Could you confirm if this event happened? http://t.co/0jMEVhQed2","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":"marcelomalcher","possibly_sensitive":false,"truncated":false,"entities":{"urls":[{"expanded_url":"http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6","indices":[106,128],"display_url":"events.lac-rio.com/feedback.jsp?r\u2026","url":"http://t.co/0jMEVhQed2"}],"hashtags":[],"user_mentions":[{"id":80631833,"name":"Marcelo Malcher","indices":[0,15],"screen_name":"marcelomalcher","id_str":"80631833"}]},"in_reply_to_status_id_str":null,"id":354995151103459329,"source":"<a href=\"http://events.lac-rio.com\" rel=\"nofollow\">W-IS-H Notifier<\/a>","in_reply_to_user_id_str":"80631833","favorited":false,"in_reply_to_status_id":null,"created_at":"Wed Jul 10 16:06:54 +0000 2013","in_reply_to_user_id":80631833,"retweet_count":0,"id_str":"354995151103459329","place":null,"user":{"location":"Rio de Janeiro, Brasil","default_profile":true,"statuses_count":2,"profile_background_tile":false,"lang":"pt","profile_link_color":"0084B4","id":1311607782,"following":false,"favourites_count":0,"protected":false,"profile_text_color":"333333","contributors_enabled":false,"verified":false,"description":"The W-IS-H project aims at discovering what is happening in the world through the analysis of social data.","profile_sidebar_border_color":"C0DEED","name":"W-IS-H Project","profile_background_color":"C0DEED","created_at":"Thu Mar 28 20:15:56 +0000 2013","default_profile_image":false,"followers_count":2,"geo_enabled":false,"profile_image_url_https":"https://si0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]},"url":{"urls":[{"expanded_url":"http://events.lac-rio.com","indices":[0,22],"display_url":"events.lac-rio.com","url":"http://t.co/GvmE09wtsh"}]}},"follow_request_sent":false,"url":"http://t.co/GvmE09wtsh","utc_offset":-10800,"time_zone":"Brasilia","notifications":false,"friends_count":7,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"wishlacpucrio","id_str":"1311607782","profile_image_url":"http://a0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","is_translator":false,"listed_count":0},"coordinates":null}
+INFO Timer-0 AskFeedback_20130710 - The message sent was: @marcelomalcher, we used one of your posts for event detection. Could you confirm if this event happened? http://t.co/0jMEVhQed2
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to ask feedback
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D2523685383%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472686%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: d3skI2nCOah1kRQZn1aokkwwGD4=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: b10b91574e4a59a900021e28407d5f55cd7c8fb5
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:11:42 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:11:42 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: c1bcc8215853053b
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07455
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347270246598806; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:11:42 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWJkYWViYzExZmYwNDUwZGE0YzFjZWVmYTJkMTYzMmY2Ogxj%250Ac3JmX2lkIiViODNlNmZlYTgwNGZhZmVlOTcxZWE4MTQ0MTEyNTQ3MjoPY3Jl%250AYXRlZF9hdGwrCI9AWsk%252FAQ%253D%253D--654e110523f5375fbeaeb5a603c2450e4f9f6ad2; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:11:42 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1428833264%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472870%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: rNrHusbG0Eu9o61w6rUfo0cmAj0=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: d75da62e76028e78d4d4a885a9d5006296434d89
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:14:46 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:14:46 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 8a98e32d4a8d2399
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07862
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347288617227395; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:14:46 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWFiYmYxMTY5MWQ0MzI5MTM4Y2FiOGViOTFiYWU2NzhmOgxj%250Ac3JmX2lkIiVkNzk0ZDI3MmFmMTFkNWQ5MDExMzRiZmZiODVhYTA5ZjoPY3Jl%250AYXRlZF9hdGwrCCUOXck%252FAQ%253D%253D--e82d0f543bf1a414367ce58dd3a8cb5bd256068e; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:14:46 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D2955541540%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472968%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: 1cPCTnMZ5UMpMDaTQ7PtQS5gqhg=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 7a9ee927baf2a70dc767b693aa2ef1b46ad80625
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:16:24 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:16:24 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: b8ebd5ca547e0601
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07842
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347298433830262; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:16:24 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTg3NGEyZmViNzJjNWMzNzFlMzQ2ODIxMWUxOWE2ZWE2Ogxj%250Ac3JmX2lkIiUzY2M2MDYyMjM1ODZiOTFmNzgwYzIwN2E0ZTJjYmEzNzoPY3Jl%250AYXRlZF9hdGwrCI6NXsk%252FAQ%253D%253D--c23966f4675fea038dd5131ea19cbd2d624cdac2; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:16:24 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+ERROR Timer-0 AskFeedback_20130710 - 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D3103464331%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373472991%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: jXTP3jtPvom8FADOGi01tD5njOE=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 9a21001e3676a18ba59cf1b2c9882e47df3d8d2a
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:16:47 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:16:47 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: d750582864c36eeb
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07328
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347300709869521; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:16:47 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWU3OWJkZTNlZjY4MDlkZmQ0Y2QyZDRlMmFlMzM2ZTI3Ogxj%250Ac3JmX2lkIiVjZmI3MDZhMzY1NjI4YThkNjRlMDYxYzc0NGM1N2IyZToPY3Jl%250AYXRlZF9hdGwrCITmXsk%252FAQ%253D%253D--cbd16edef763cabe3762f9b97efe1169e9e04f6a; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:16:47 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to update information about scheduled analysis execution with the following parameters: 
+ERROR Timer-0 AskFeedback_20130710 - -- id = 1 | status = -1 - Status is a duplicate | update option = ANALYSIS_FEEDBACK_EVENT_CONTENT
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_event_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D2048512981%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373473010%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: cxwZRthx7YgYf3ipZDG2vpWapZ8=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: b7f1f9dc031a4f6a81004c0c4bb1544404fff123
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 16:17:07 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef114ee50599f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 16:17:07 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: c21892f07951e1c6
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07614
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137347302687178961; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 16:17:07 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTEyZjJhYTFjYmU3YzBjMzQ3M2NmMDIzOWE0YjQzYjY5Ogxj%250Ac3JmX2lkIiU2YWMxZDNmZDlkOWEwYjZjMWZlNTU3ZTYyOGIwMjM1MToPY3Jl%250AYXRlZF9hdGwrCNEzX8k%252FAQ%253D%253D--6b847f42a2b9570e464cb2cfb1052135edee0cce; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 04:17:07 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D-675806705%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497521%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: wGgHudkMi2FBUs1BnbHZa83/Sa8=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 247644abafc43496193f7b6672a8c6109768b505
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "00c5b007fa7d4921b7548974d26327bb"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:05:40 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:05:41 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: fce1ce73fcb950ed
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.30550
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349754059750128; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:05:41 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWE0YWQwNDVmNGVlZWNiN2FmNWJhYWNkMTQwZDQzYTYwOgxj%250Ac3JmX2lkIiU4YzAxMWZhMTEwZGE1ZDE0OTE1MjEwMDEwYjE3MzM0ZjoPY3Jl%250AYXRlZF9hdGwrCHpA1co%252FAQ%253D%253D--f6a7bdc202f3d6a11387f1c46a398f8ebd8cd7ae; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:05:40 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 813
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"location":"Rio de Janeiro","default_profile":true,"statuses_count":51,"profile_background_tile":false,"lang":"en","profile_link_color":"0084B4","id":80631833,"following":false,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":null,"verified":false,"contributors_enabled":false,"profile_sidebar_border_color":"C0DEED","name":"Marcelo Malcher","profile_background_color":"C0DEED","created_at":"Wed Oct 07 17:33:02 +0000 2009","default_profile_image":false,"followers_count":74,"status":{"text":"Tweeting something with #dipucrio for testing...","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"entities":{"urls":[],"hashtags":[{"text":"dipucrio","indices":[24,33]}],"user_mentions":[]},"in_reply_to_status_id_str":null,"id":353983228073349122,"in_reply_to_user_id_str":null,"source":"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button<\/a>","favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Sun Jul 07 21:05:52 +0000 2013","retweet_count":0,"id_str":"353983228073349122","place":null,"coordinates":null},"geo_enabled":false,"profile_image_url_https":"https://si0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]}},"follow_request_sent":false,"url":null,"utc_offset":null,"time_zone":null,"notifications":false,"friends_count":108,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"marcelomalcher","id_str":"80631833","profile_image_url":"http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","is_translator":false,"listed_count":3}
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D3432469700%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497525%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3D%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection.%2520Could%2520you%2520confirm%2520if%2520this%2520event%2520happened%253F%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: nuPTi+tgOQRrI12GICSvibp74MQ=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection.%20Could%20you%20confirm%20if%20this%20event%20happened%3F%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 503 Service Unavailable
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349754152919361; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:05:41 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Content-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:05:41 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Connection: close
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"message":"Over capacity","code":130}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 503:The Twitter servers are up, but overloaded with requests. Try again later.
+message - Over capacity
+code - 130
+
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Message to send to user @marcelomalcher is: Hey @marcelomalcher, we used one of your posts for event detection! Can you confirm if this event happened at http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6? Help science! :-) 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D-765395734%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497788%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: fVPlTUoZsBxXJ02KD5+C07upQxw=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 0f927922092a2515294b0b1ee149469961d05883
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "93b69d563f904770020c7381e7809e3d"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:10:05 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:10:05 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: ef8ffbf3b2a46bcd
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.09847
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349780528589340; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:10:05 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWNkOGEyOGYyYmIxMzlmZWVjNDAxMzFjNDgzZWM1NThkOgxj%250Ac3JmX2lkIiUzYzBiODFkYzJkOTlkNmI2MzNmYTRiMjYzMDlkODQwZToPY3Jl%250AYXRlZF9hdGwrCIRK2co%252FAQ%253D%253D--e42d074bf53495936d2bd8fcfb861c994afb1220; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:10:05 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 814
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"location":"Rio de Janeiro","default_profile":true,"statuses_count":51,"profile_background_tile":false,"lang":"en","profile_link_color":"0084B4","id":80631833,"following":true,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":null,"verified":false,"contributors_enabled":false,"name":"Marcelo Malcher","profile_sidebar_border_color":"C0DEED","profile_background_color":"C0DEED","created_at":"Wed Oct 07 17:33:02 +0000 2009","default_profile_image":false,"followers_count":75,"profile_image_url_https":"https://si0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","status":{"text":"Tweeting something with #dipucrio for testing...","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"entities":{"urls":[],"hashtags":[{"text":"dipucrio","indices":[24,33]}],"user_mentions":[]},"in_reply_to_status_id_str":null,"id":353983228073349122,"in_reply_to_user_id_str":null,"source":"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button<\/a>","favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Sun Jul 07 21:05:52 +0000 2013","retweet_count":0,"id_str":"353983228073349122","place":null,"coordinates":null},"geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]}},"follow_request_sent":false,"url":null,"utc_offset":null,"time_zone":null,"notifications":false,"friends_count":108,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"marcelomalcher","id_str":"80631833","profile_image_url":"http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","is_translator":false,"listed_count":3}
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D3228455402%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497789%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3DHey%2520%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection%2521%2520Can%2520you%2520confirm%2520if%2520this%2520event%2520happened%2520at%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6%253F%2520Help%2520science%2521%2520%253A-%2529%2520
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: HIuryIyOoAwdL3lTjSvLZyFDu28=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=Hey%20%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection%21%20Can%20you%20confirm%20if%20this%20event%20happened%20at%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6%3F%20Help%20science%21%20%3A-%29%20&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 5299e49f931dd7290139daba3155cc9bef28c0f4
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:10:05 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:10:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: fd6b09e1a754533c
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.11583
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349780584769020; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:10:06 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTljZjdmODJmYTVjMTY1ODAzNjgzOGE2MDM5MTNkMmFlOgxj%250Ac3JmX2lkIiUxMGEwMWNhODMyNzQ2ZGE1N2MwNjA3MDkxZWZkZTIzYjoPY3Jl%250AYXRlZF9hdGwrCI9M2co%252FAQ%253D%253D--ed69fdd863cac349e9586ed3553a9fbf8099554a; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:10:05 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 84
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":186,"message":"Status is over 140 characters"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is over 140 characters
+code - 186
+
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Message to send to user @marcelomalcher is: Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D57601675%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497849%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: 94J8CEVKhdJRMZiSIHCu1ywdW9Q=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *****************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: e75c6e9f1787e3465b5b85873a905dd89a541533
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "93b69d563f904770020c7381e7809e3d"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 7f8ad3866f7ba912
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.05548
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349786623687388; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:11:06 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTY2NzMzNDU1NWZkZDg3ZmNmNTZhYjAxMTNjYWViZDQ4Ogxj%250Ac3JmX2lkIiVmNTdlZDk4NDZkMDk1Y2U5ZDdhOTMyNDJhNzk0MjA3NDoPY3Jl%250AYXRlZF9hdGwrCDY42so%252FAQ%253D%253D--fee12a63ff92cc2ebfb779a560f5974b1eabdc69; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 814
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"location":"Rio de Janeiro","default_profile":true,"statuses_count":51,"profile_background_tile":false,"lang":"en","profile_link_color":"0084B4","id":80631833,"following":true,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":null,"verified":false,"contributors_enabled":false,"name":"Marcelo Malcher","profile_sidebar_border_color":"C0DEED","profile_background_color":"C0DEED","created_at":"Wed Oct 07 17:33:02 +0000 2009","default_profile_image":false,"followers_count":75,"profile_image_url_https":"https://si0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","status":{"text":"Tweeting something with #dipucrio for testing...","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"entities":{"urls":[],"hashtags":[{"text":"dipucrio","indices":[24,33]}],"user_mentions":[]},"in_reply_to_status_id_str":null,"id":353983228073349122,"in_reply_to_user_id_str":null,"source":"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button<\/a>","favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Sun Jul 07 21:05:52 +0000 2013","retweet_count":0,"id_str":"353983228073349122","place":null,"coordinates":null},"geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]}},"follow_request_sent":false,"url":null,"utc_offset":null,"time_zone":null,"notifications":false,"friends_count":108,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"marcelomalcher","id_str":"80631833","profile_image_url":"http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","is_translator":false,"listed_count":3}
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D517519125%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373497850%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3DHey%2520%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection%2520%253A-%2529%2520Help%2520science%2520confirming%2520%2528or%2520not%2529%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6%2520
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: b+ak0iUqReLydvCPNd6kMT06khE=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: ********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=Hey%20%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection%20%3A-%29%20Help%20science%20confirming%20%28or%20not%29%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6%20&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 6ac4bc15430ab53c7f7431dd3b544dd6bcce4ab1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "bcc3861a98d872f96cd040041c12ae00"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 185d7eccf0b48297
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.20373
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349786665661047; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:11:07 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTQ2MWZjMGZkNTNiOTg3YzRjZmUxODc4MjQ4ZWRmOGZlOgxj%250Ac3JmX2lkIiU0NTY0NDRiMjUxYWVlMmJkYTFhYmQ5YTk2ZDFjOWY3ZToPY3Jl%250AYXRlZF9hdGwrCCY62so%252FAQ%253D%253D--f9532622cbc7133fe9f26a2c200a4f2fd6d81f19; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:11:06 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 1116
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"text":"Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://t.co/0jMEVhQed2","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"possibly_sensitive":false,"truncated":false,"entities":{"urls":[{"expanded_url":"http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6","indices":[104,126],"display_url":"events.lac-rio.com/feedback.jsp?r\u2026","url":"http://t.co/0jMEVhQed2"}],"hashtags":[],"user_mentions":[{"id":80631833,"name":"Marcelo Malcher","indices":[4,19],"screen_name":"marcelomalcher","id_str":"80631833"}]},"in_reply_to_status_id_str":null,"id":355101907225821186,"source":"<a href=\"http://events.lac-rio.com\" rel=\"nofollow\">W-IS-H Notifier<\/a>","in_reply_to_user_id_str":null,"favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Wed Jul 10 23:11:06 +0000 2013","retweet_count":0,"id_str":"355101907225821186","place":null,"user":{"location":"Rio de Janeiro, Brasil","default_profile":true,"statuses_count":3,"profile_background_tile":false,"lang":"pt","profile_link_color":"0084B4","id":1311607782,"following":false,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":"The W-IS-H project aims at discovering what is happening in the world through the analysis of social data.","verified":false,"contributors_enabled":false,"name":"W-IS-H Project","profile_sidebar_border_color":"C0DEED","profile_background_color":"C0DEED","created_at":"Thu Mar 28 20:15:56 +0000 2013","default_profile_image":false,"followers_count":3,"profile_image_url_https":"https://si0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]},"url":{"urls":[{"expanded_url":"http://events.lac-rio.com","indices":[0,22],"display_url":"events.lac-rio.com","url":"http://t.co/GvmE09wtsh"}]}},"follow_request_sent":false,"url":"http://t.co/GvmE09wtsh","utc_offset":-10800,"time_zone":"Brasilia","notifications":false,"friends_count":18,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"wishlacpucrio","id_str":"1311607782","profile_image_url":"http://a0.twimg.com/profile_images/3443932619/4ff535fb6a77aa7155acf19dbe050e85_normal.png","listed_count":0,"is_translator":false},"coordinates":null}
+INFO Timer-0 AskFeedback_20130710 - The message sent was: Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://t.co/0jMEVhQed2
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Message to send to user @marcelomalcher is: Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1608720043%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373498376%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: MusAzfUztwxIraFT4zq/5ByzshM=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: e0decc0f55b92641352c24e1411a2eb0d7f32e7e
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "93b69d563f904770020c7381e7809e3d"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 8cb0e9f85f5b3a2b
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.06891
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349839312158947; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:19:53 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTM2ZjkwMzhlZjBlMjRiZTJjZjcyZGY2MjgzYjc2OTMzOgxj%250Ac3JmX2lkIiVkNzU3NzYwYTNjYWQ4Y2RkZjgwZGNiM2E1MzY4ODk3YjoPY3Jl%250AYXRlZF9hdGwrCLpC4so%252FAQ%253D%253D--0621c9693e424ad8634bfadd9e5f42b9fe6394a7; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 814
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"location":"Rio de Janeiro","default_profile":true,"statuses_count":51,"profile_background_tile":false,"lang":"en","profile_link_color":"0084B4","id":80631833,"following":true,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":null,"verified":false,"contributors_enabled":false,"name":"Marcelo Malcher","profile_sidebar_border_color":"C0DEED","profile_background_color":"C0DEED","created_at":"Wed Oct 07 17:33:02 +0000 2009","default_profile_image":false,"followers_count":75,"profile_image_url_https":"https://si0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","status":{"text":"Tweeting something with #dipucrio for testing...","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"entities":{"urls":[],"hashtags":[{"text":"dipucrio","indices":[24,33]}],"user_mentions":[]},"in_reply_to_status_id_str":null,"id":353983228073349122,"in_reply_to_user_id_str":null,"source":"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button<\/a>","favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Sun Jul 07 21:05:52 +0000 2013","retweet_count":0,"id_str":"353983228073349122","place":null,"coordinates":null},"geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]}},"follow_request_sent":false,"url":null,"utc_offset":null,"time_zone":null,"notifications":false,"friends_count":108,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"marcelomalcher","id_str":"80631833","profile_image_url":"http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","is_translator":false,"listed_count":3}
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1842467395%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373498377%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3DHey%2520%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection%2520%253A-%2529%2520Help%2520science%2520confirming%2520%2528or%2520not%2529%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6%2520
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: AyO0tN1nQb9c7tZyOJdJmcghanw=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *******************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=Hey%20%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection%20%3A-%29%20Help%20science%20confirming%20%28or%20not%29%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6%20&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: 74dcbb60c34ec403fe29808861f29fbdabb543a3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 801cfaf1329d22cf
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.08554
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349839375735438; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:19:54 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTBlY2IwMTFjYzY4YzNiOGViNTZkMGRhOTUyYzQ4MGQ5Ogxj%250Ac3JmX2lkIiVmYWI3NWQ1YWNlZWI0OTA2N2YzZWMyNzdkYmNjYjc0ZDoPY3Jl%250AYXRlZF9hdGwrCDZF4so%252FAQ%253D%253D--ec48d2f2715de3e0f2364f5b72f5c1314682d930; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:19:53 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Message to send to user @marcelomalcher is: Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1039429257%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373498426%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: fY/BIPzU9Fx5E14QMPgkc7G0TFQ=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *********************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Message to send to user @marcelomalcher is: Hey @marcelomalcher, we used one of your posts for event detection :-) Help science confirming (or not) http://events.lac-rio.com/feedback.jsp?rid=e98d0449-560a-4ac7-acbf-a9489eeeeea6 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/friendships/create.json?screen_name=marcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Ffriendships%2Fcreate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D19121848%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373498486%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26screen_name%3Dmarcelomalcher
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: EJxgXZnd7oKe3VA30RRdmfdGJR4=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *****************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: c522de1bbacf60292f3b09127837ac4a434c2941
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - etag: "93b69d563f904770020c7381e7809e3d"
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:21:43 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 200 OK
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:21:43 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: d037323e73e737f2
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.05834
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349850342285326; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:21:43 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJTU0NWQ2YmYxNmIxYTEyZTA1MzlmY2M3NzJiZjRiOWFhOgxj%250Ac3JmX2lkIiUyMzU4ZGQ5NGIxNDg5ODU4NGZiZWJiMGYwZWUwNWNiYToPY3Jl%250AYXRlZF9hdGwrCJTx48o%252FAQ%253D%253D--67e8efa669706d80c21c1a388cff660550c85733; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:21:43 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 814
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"location":"Rio de Janeiro","default_profile":true,"statuses_count":51,"profile_background_tile":false,"lang":"en","profile_link_color":"0084B4","id":80631833,"following":true,"favourites_count":0,"protected":false,"profile_text_color":"333333","description":null,"verified":false,"contributors_enabled":false,"name":"Marcelo Malcher","profile_sidebar_border_color":"C0DEED","profile_background_color":"C0DEED","created_at":"Wed Oct 07 17:33:02 +0000 2009","default_profile_image":false,"followers_count":75,"profile_image_url_https":"https://si0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","status":{"text":"Tweeting something with #dipucrio for testing...","contributors":null,"geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"entities":{"urls":[],"hashtags":[{"text":"dipucrio","indices":[24,33]}],"user_mentions":[]},"in_reply_to_status_id_str":null,"id":353983228073349122,"in_reply_to_user_id_str":null,"source":"<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button<\/a>","favorited":false,"in_reply_to_status_id":null,"in_reply_to_user_id":null,"created_at":"Sun Jul 07 21:05:52 +0000 2013","retweet_count":0,"id_str":"353983228073349122","place":null,"coordinates":null},"geo_enabled":false,"profile_background_image_url":"http://a0.twimg.com/images/themes/theme1/bg.png","profile_background_image_url_https":"https://si0.twimg.com/images/themes/theme1/bg.png","entities":{"description":{"urls":[]}},"follow_request_sent":false,"url":null,"utc_offset":null,"time_zone":null,"notifications":false,"friends_count":108,"profile_use_background_image":true,"profile_sidebar_fill_color":"DDEEF6","screen_name":"marcelomalcher","id_str":"80631833","profile_image_url":"http://a0.twimg.com/profile_images/458022984/eu_dresden_tud_menor_normal.jpg","is_translator":false,"listed_count":3}
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Request: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - POST http://api.twitter.com/1.1/statuses/update.json
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth base string: POST&http%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3D1%26include_rts%3D1%26oauth_consumer_key%3DQoPizNlv9xNdCUQGwODlA%26oauth_nonce%3D1660942124%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1373498487%26oauth_token%3D1311607782-JD7nreinqk4DaE3NgRhofhljmoXDzAOsYVnzDD7%26oauth_version%3D1.0%26status%3DHey%2520%2540marcelomalcher%252C%2520we%2520used%2520one%2520of%2520your%2520posts%2520for%2520event%2520detection%2520%253A-%2529%2520Help%2520science%2520confirming%2520%2528or%2520not%2529%2520http%253A%252F%252Fevents.lac-rio.com%252Ffeedback.jsp%253Frid%253De98d0449-560a-4ac7-acbf-a9489eeeeea6%2520
+DEBUG Timer-0 twitter4j.auth.OAuthAuthorization - OAuth signature: +Mou9wd/IahlcFdT/nVuZyxXRLg=
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Authorization: *************************************************************************************************************************************************************************************************************************************************************************************
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-3.0.3.xml
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client: Twitter4J
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Accept-Encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - User-Agent: twitter4j http://twitter4j.org/ /3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - X-Twitter-Client-Version: 3.0.3
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Post Params: status=Hey%20%40marcelomalcher%2C%20we%20used%20one%20of%20your%20posts%20for%20event%20detection%20%3A-%29%20Help%20science%20confirming%20%28or%20not%29%20http%3A%2F%2Fevents.lac-rio.com%2Ffeedback.jsp%3Frid%3De98d0449-560a-4ac7-acbf-a9489eeeeea6%20&include_entities=1&include_rts=1
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - Response: 
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - HTTP/1.1 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-type: application/json; charset=utf-8
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-frame-options: SAMEORIGIN
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-mid: f998b1b3defeb5cc8c45d28c65c0a10f7c386e4f
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - last-modified: Wed, 10 Jul 2013 23:21:44 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - status: 403 Forbidden
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction-mask: a6183ffa5f8ca943ff1b53b5644ef1143d737c3d
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-encoding: gzip
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - date: Wed, 10 Jul 2013 23:21:44 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-transaction: 952b6eb3b35037a9
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - vary: Accept-Encoding
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - pragma: no-cache
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-runtime: 0.07753
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - expires: Tue, 31 Mar 1981 05:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: guest_id=v1%3A137349850394930240; Domain=.twitter.com; Path=/; Expires=Fri, 10-Jul-2015 23:21:44 UTC
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: _twitter_sess=BAh7CDoHaWQiJWYyNmExZWIyZGJmNWYxMTFjMDhiYjcwZTcyNzc1YjUwOgxj%250Ac3JmX2lkIiU2MmVlY2I3YWVkNmU2ZWI4NDE3MjZlZTBmZTMzZjNiNDoPY3Jl%250AYXRlZF9hdGwrCJ7z48o%252FAQ%253D%253D--af3ea40894c91bf13fb5d28c07ccfaab14c42d6d; domain=.twitter.com; path=/; HttpOnly
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: twid=u%3D1311607782%7CJnoY0p8FPsQhjHcEzLvM3n8DBMQ%3D; domain=.twitter.com; path=/; secure
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: lang=pt; path=/
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: pid=; domain=.twitter.com; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - set-cookie: dnt=1; domain=.twitter.com; path=/; expires=Tue, 11-Jul-2023 11:21:44 GMT
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - content-length: 77
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - server: tfe
+DEBUG Timer-0 twitter4j.internal.http.HttpClientImpl - x-access-level: read-write
+DEBUG Timer-0 twitter4j.internal.http.HttpResponseImpl - {"errors":[{"code":187,"message":"Status is a duplicate"}]}
+
+ERROR Timer-0 AskFeedback_20130710 - Error while trying to send feedback for marcelomalcher: 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+message - Status is a duplicate
+code - 187
+
+INFO Timer-0 AskFeedback_20130710 - Information in table  analysis_feedback_content  updated successfully (id = 1)
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...
+INFO Timer-0 AskFeedback_20130710 - Querying feedbacks to ask...
+INFO Timer-0 AskFeedback_20130710 - 1) Open analysis feedback with ID=2. Asking for feedback...
+INFO Timer-0 AskFeedback_20130710 - Feedbacks were sent for id 
+INFO Timer-0 AskFeedback_20130710 - End of cycle. Waiting for next round...

@@ -1,0 +1,31 @@
+Congestion on a street in Taipei consisting primarily of motorcycles.
+Congestion caused by a road accident, Algarve, Portugal.
+Congestion caused by evacuees fleeing Hurricane Rita. Traffic in all lanes of the highway is traveling in the same direction.
+Traffic congestion in Al Bayda city, Libya in 2010.
+Traffic congestion occurs when a volume of traffic or modal split generates demand for space greater than the available road capacity,
+ this point is commonly termed saturation. There are a number of specific circumstances which cause or aggravate congestion; 
+ most of them reduce the capacity of a road at a given point or over a certain length, or increase the number of vehicles required 
+ for a given volume of people or goods. About half of U.S. traffic congestion is recurring, and is attributed to sheer weight of traffic; 
+ most of the rest is attributed to traffic incidents, road work and weather events.
+Traffic research still cannot fully predict under which conditions a "traffic jam" (as opposed to heavy, but smoothly flowing traffic) may suddenly occur. 
+It has been found that individual incidents (such as accidents or even a single car braking heavily in a previously smooth flow) may cause ripple effects 
+(a cascading failure) which then spread out and create a sustained traffic jam when, otherwise, normal flow might have continued for some time longer.
+Some traffic engineers have attempted to apply the rules of fluid dynamics to traffic flow, likening it to the flow of a fluid in a pipe. 
+Congestion simulations and real-time observations have shown that in heavy but free flowing traffic, jams can arise spontaneously, triggered by minor events ("butterfly effects"), such as an abrupt steering maneuver by a single motorist. Traffic scientists liken such a situation to the sudden freezing of supercooled fluid.
+However, unlike a fluid, traffic flow is often affected by signals or other events at junctions that periodically affect the s
+mooth flow of traffic. Alternative mathematical theories exist, such as Boris Kerner's three-phase traffic theory (see also spatiotemporal 
+reconstruction of traffic congestion).
+Because of the poor correlation of theoretical models to actual observed traffic flows, transportation planners and highway 
+engineers attempt to forecast traffic flow using empirical models. Their working traffic models typically use a combination of macro-, micro- and 
+mesoscopic features, and may add matrix entropy effects, by "platooning" groups of vehicles and by randomising the flow patterns within individual 
+segments of the network. These models are then typically calibrated by measuring actual traffic flows on the links in the network, and the baseline 
+flows are adjusted accordingly.
+It is now claimed that equations can predict these in detail:
+Phantom jams can form when there is a heavy volume of cars on the road. In that high density of traffic, small disturbances 
+(a driver hitting the brake too hard, or getting too close to another car) can quickly become amplified into a full-blown, self-sustaining traffic jam...
+A team of MIT mathematicians has developed a model that describes how and under what conditions such jams form, which could help road designers minimize
+the odds of their formation. The researchers reported their findings May 26 in the online edition of Physical Review E.
+Key to the new study is the realization that the mathematics of such jams, which the researchers call 'jamitons,' are strikingly similar to 
+the equations that describe detonation waves produced by explosions, says Aslan Kasimov, lecturer in MIT's Department of Mathematics. 
+That discovery enabled the team to solve traffic jam equations that were first theorized in the 1950s.
+Congestion can be reduced by either increasing road capacity (supply), or by reducing traffic (demand). Capacity can be increased in a number of ways, but needs to take account of latent demand otherwise it may be used more strongly than anticipated. Critics of the approach of adding capacity have compared it to "fighting obesity by letting out your belt" (inducing demand that did not exist before). Reducing road capacity has in turn been attacked as removing free choice as well as increasing travel costs and times.

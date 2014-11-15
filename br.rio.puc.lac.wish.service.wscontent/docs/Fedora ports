@@ -1,0 +1,7 @@
+#FEDORA
+
+Abrir uma porta:
+- sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
+
+Reiniciar o IPTABLES 
+- sudo systemctl restart iptables.service

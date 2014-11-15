@@ -1,0 +1,11 @@
+Running the application
+
+Params ->southwest_latitude southwest_longitude northeast_latitude northeast_longitude file_name keywords (optional) 
+
+Example: 
+
+NY: 40 -74 41 -73 teste_1.txt
+
+Rio: -23.10 -43.6 -22.75 -43.15
+
+SP: -23.8 -46.9 -23.44 -46.47

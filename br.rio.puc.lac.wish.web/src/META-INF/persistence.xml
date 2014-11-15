@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="br.rio.puc.lac.wish.web"  transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>   
+               
+        <class>br.rio.puc.lac.wish.web.model.AnalysisConfiguration</class>
+        <class>br.rio.puc.lac.wish.web.model.AnalysisExecutionFile</class>
+        <class>br.rio.puc.lac.wish.web.model.AnalysisFeedback</class>        
+        <class>br.rio.puc.lac.wish.web.model.AnalysisFeedbackContent</class>        
+        <class>br.rio.puc.lac.wish.web.model.AnalysisPublication</class>        
+        <class>br.rio.puc.lac.wish.web.model.AnalysisPublicationEvent</class>
+        <class>br.rio.puc.lac.wish.web.model.AnalysisPublicationEventContent</class>
+        <class>br.rio.puc.lac.wish.web.model.ContentsHdfsImport</class>        
+        <class>br.rio.puc.lac.wish.web.model.ScheduledAnalysis</class>
+        <class>br.rio.puc.lac.wish.web.model.ScheduledAnalysisJob</class>
+        <class>br.rio.puc.lac.wish.web.model.ScheduledAnalysisProperty</class>    
+        
+        <class>br.com.tecnoinf.aurora.model.generic.binary.BinaryContent</class>
+
+        <class>br.com.tecnoinf.aurora.model.security.AbstractSecurityEntity</class>
+        <class>br.com.tecnoinf.aurora.model.security.Module</class>
+        <class>br.com.tecnoinf.aurora.model.security.Control</class>
+        <class>br.com.tecnoinf.aurora.model.security.Action</class>
+        <class>br.com.tecnoinf.aurora.model.security.User</class>
+        <class>br.com.tecnoinf.aurora.model.security.LogContent</class>
+        <class>br.com.tecnoinf.aurora.model.security.Log</class>
+        <class>br.com.tecnoinf.aurora.model.security.Group</class>   
+                   
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/wishdb"/>
+            <property name="javax.persistence.jdbc.user" value="wishuser"/>
+            <property name="javax.persistence.jdbc.password" value="102030wish"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>                     
+ 
+    </persistence-unit>
+</persistence>

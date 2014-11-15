@@ -1,0 +1,503 @@
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+ERROR Timer-0 ScheduledAnalyisisExecution_20130709 - 
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+ERROR Thread-1 ScheduledExecutionRunnable_20130709 - Error while trying to execute analysis: java.net.UnknownHostException: unknown host: hadoopmaster
+INFO Thread-1 ScheduledAnalyisisExecution_20130709 - Information about scheduled analysis execution updated successfully (id = 10)
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of MAP tasks to: 10
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of REDUCE tasks to: 20
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of MAP tasks to: 10
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of REDUCE tasks to: 20
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+ERROR Timer-0 ScheduledAnalyisisExecution_20130709 - 
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of MAP tasks to: 10
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of REDUCE tasks to: 20
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of MAP tasks to: 10
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of REDUCE tasks to: 20
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Querying scheduled analysis...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Scheduled analysis found with ID=10. Please wait a bit...
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - Jar file received: testfile.jar (application/octet-stream) length: 64289
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 1) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.semantic.theme.BasicThemeSemanticJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 2) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.temporal.TemporalJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 3) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.spatial.box.divider.sequential.SequentialDividerSpatialBoxJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - 4) Job class defined: br.rio.puc.lac.social.analyzer.execution.job.filter.FilterDuplicateContentJob
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: semantic.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.height - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.box.width - 0.03f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.horizontal-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-latitude - 41
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.northeast-longitude - -73
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-latitude - 40
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.southwest-longitude - -74
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: spatial.vertical-move - 0.015f
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.end-time - 1301223168000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.initial-time - 1296746871000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.minimum-number - 5
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.time-window - 14400000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: temporal.window-move - 3600000
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.0 - nba,nicks,basketball,nynicks,carmelo,stoudemeire,basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.keywords.1 - theater,broadway,musical,theatre
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.0 - basket
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.name.1 - broadway
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.0 - Traffic Alert:
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.1 - http://4sq.com
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.negative-pattern.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - ---> Property: theme.number - 2
+INFO Timer-0 ScheduledAnalyisisExecution_20130709 - End of execution cycle. Waiting for next round...
+INFO Thread-1 AnalysisExecution_20130709 - # Initial input path: data/test1/1
+INFO Thread-1 AnalysisExecution_20130709 - # Setting initial ouput path: test
+INFO Thread-1 AnalysisExecution_20130709 - # Setting fs.default.name to: hdfs://hadoopmaster/
+INFO Thread-1 AnalysisExecution_20130709 - # Setting mapred.job.tracker to: hadoopmaster:8021
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of MAP tasks to: 10
+INFO Thread-1 AnalysisExecution_20130709 - # Setting number of REDUCE tasks to: 20
+INFO Thread-1 AnalysisExecution_20130709 - # Setting JAR file: temp//testfile.jar
+DEBUG Thread-1 org.apache.hadoop.security.Groups -  Creating new Groups object
+DEBUG Thread-1 org.apache.hadoop.security.Groups - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - hadoop login commit
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - using local user:NTUserPrincipal: Marcelo
+DEBUG Thread-1 org.apache.hadoop.security.UserGroupInformation - UGI loginUser:Marcelo
+DEBUG Thread-1 org.apache.hadoop.fs.FileSystem - Creating filesystem for hdfs://hadoopmaster/
